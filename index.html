@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>台中市景點推薦</title>
     <style>
     	td {text-align: center;}
        .F1 {font-size: 40px}
@@ -13,23 +13,69 @@
 
        .RIMG1 { border-radius: 20px }
        .RIMG2 { border-radius: 50%;width:300px ;height:300px }
+       
+       .F2:hover { font-size:32px;background-color:black;color:white }
+       .F3:hover { font-size:24px;background-color:black;color:white }
+       .RIMG1:hover{opacity: 80%} 
+       .RIMG2:hover{opacity: 80%;rotate: -5deg} 
+       td {padding: 20px;}
+
+
+   
+						.navbar {
+			  overflow: hidden;
+			  background-color: #333;
+			  position: fixed;
+			  top: 0;
+			  width: 100%;
+			}
+
+			.navbar a {
+			  float: left;
+			  display: block;
+			  color: #f2f2f2;
+			  text-align: center;
+			  padding: 14px 16px;
+			  text-decoration: none;
+			  font-size: 17px;
+			}
+
+			.navbar a:hover {
+			  background: #ddd;
+			  color: black;
+			}
+
+
+
+
+       
 
     </style> 
 
 
 </head>
 <body>
+<div class="navbar">
+  <a href="#T1">臺中市</a>
+  <a href="#T2">台中國家歌劇院</a>
+  <a href="#T3">臺中州廳</a>
+  <a href="#T4">審計新村</a>
+</div>
+
+
 <div class="C1">	
 	   <table >
 	   	<tr>
 	   		<td colspan="2">
+	   			<br>
+	   			<br>
 	   			<font class="F1">台中市景點推薦</font>
 	   			<br>
-	   			<img class="RIMG1" src="00taichung.jpeg" width="1024px" height="300px"></td>
+	   			<img  id="T1" class="RIMG1" src="00taichung.jpeg" width="1024px" height="300px"></td>
 	   	</tr>
 	   	<tr>
 	   		<td colspan="2">
-	   			<font class="F2">臺中市</font>
+	   			<font   class="F2">臺中市</font>
 	   			<br>
 
 臺中市，通稱臺中，簡稱「中」，為中華民國直轄市，臺灣六都之一，也是中臺灣唯一的直轄市。周邊與臺灣省的六個縣相鄰，北鄰苗栗縣、新竹縣，南鄰彰化縣、南投縣，東隔中央山脈與花蓮縣相鄰，東北以中央山脈和雪山山脈毗鄰宜蘭縣，西臨臺灣海峽。
@@ -44,10 +90,10 @@
 圖：台中國家歌劇院白天景色<br>
 
 所在位置：台中市西屯區惠來路二段101號</td>
-	   		<td><img class="RIMG2" src="01.jpeg"></td>
+	   		<td><img id="T2" class="RIMG2" src="01.jpeg"></td>
 	   	</tr>
 	   	<tr>
-	   		<td><img  class="RIMG2" src="02.jpeg"></td>
+	   		<td><img  id="T3" class="RIMG2" src="02.jpeg"></td>
 	   		<td><font class="F3">臺中州廳</font>
 	   			<br>
 臺中州廳位於台中市西區，為一座國定古蹟，二戰後由台中市政府遷入辦公，由於該建築原為日治時期的臺中州廳（即「州政府」），因而沿用此稱呼。周邊鄰近台中文學公園、台中刑務所演武場、宮原眼科等熱門景點。<br>
@@ -64,10 +110,19 @@
 圖：審計新村<br>
 
 所在位置：台中市西區民生路368巷</td>
-	   		<td><img class="RIMG2" src="03.jpeg"></td>
+
+
+	   		<td><img id="T4" class="RIMG2" src="03.jpeg">
+	   		</td>
 	   	</tr>
 	   	<tr>
-	   		<td colspan="2">資科4B 410906812 林芳正</td>
+	   		<td colspan="2">
+	   			<iframe src="https://www.google.com/maps/d/embed?mid=1AWNmOja0jaN1viCislonDtjx6a0AKik&ehbc=2E312F" width="640" height="480"></iframe>
+	   		</td>
+</tr>
+	   		<td colspan="2" style="background-color: black;color: white;">
+	   			資科4B 410906812 林芳正
+	   		</td>
 	   		
 	   	</tr>
 	   </table>
